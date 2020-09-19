@@ -1,0 +1,12 @@
+producto = input("Producto: ")
+costo_unitario = int(input("CU: $"))
+precio_publico = int(input("PVP: $"))
+numero_unidades = int(input("Unidades Disponibles: $"))
+
+resta = ((precio_publico - costo_unitario) * numero_unidades)
+
+print("Producto: ", producto)
+print("CU: $", costo_unitario)
+print("PVP: $", precio_publico)
+print("Unidades Disponibles: $",numero_unidades)
+print("Ganancia: $", resta)
